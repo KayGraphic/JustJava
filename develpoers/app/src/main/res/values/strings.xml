@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">develpoers</string>
+    <string name="EnterName">Name</string>
+    <string name="SendButton">Send</string>
+</resources>

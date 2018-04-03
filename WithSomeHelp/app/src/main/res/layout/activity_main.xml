@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.withsomehelp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/stupid_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <CheckBox
+            android:id="@+id/stupidCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="I Feel Stupid" />
+
+        <CheckBox
+            android:id="@+id/quitCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="I Want To Quit" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Submit"
+            android:onClick="shame"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:id="@+id/are_stupid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="You Are Stupid" />
+
+        <TextView
+            android:id="@+id/should_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="You Should Quit" />
+
+    </LinearLayout>
+</RelativeLayout>
